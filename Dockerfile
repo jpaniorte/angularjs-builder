@@ -5,4 +5,5 @@ RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s
     mv ./kubectl /usr/local/bin/kubectl && \
     npm i -g bower eslint gulp
 
+COPY helm /usr/local/bin
 
